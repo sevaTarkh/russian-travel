@@ -6,7 +6,7 @@
     max-width: 1184px;
     min-height: 671px;
     justify-content: center;
-    margin: 0 48px 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 @media screen and (max-width: 1124px){
@@ -25,7 +25,6 @@
         gap: 16px;
         max-width: 720px;
         min-height: 1164px;
-        margin: 0 24px 0;
     }
 }
 @media screen and (max-width: 568px){
@@ -35,6 +34,5 @@
         gap: 12px;
         max-width: 288px;
         min-height: 2724px;
-        margin: 0 16px 0;
     }
 }
