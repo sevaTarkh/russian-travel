@@ -1,20 +1,19 @@
 .place__url-heading{
-max-width: 456px;
-height: 12px;
-text-align: left;
-font-weight: 400;
-font-size: 12px;
-line-height: 170%;
-letter-spacing: 2px;
-color: #AAAAAA;
-margin: 0;
+    max-width: 456px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0;
 }
 @media screen and (max-width: 1124px){
     .place__url-heading{
         grid-template-rows: min-content 440px;
-    grid-template-columns: 440px 456px;
-    row-gap: 48px;
-    column-gap: 32px;
+        grid-template-columns: 440px 456px;
+        row-gap: 48px;
+        column-gap: 32px;
     }
 }
 @media screen and (max-width: 984px){
@@ -22,8 +21,4 @@ margin: 0;
         line-height: 12px;
     }
 }
-@media screen and (max-width: 568px){
-    .place__url-heading{
-        line-height: 12px;
-    }
-}
+

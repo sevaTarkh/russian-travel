@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: end;
 }
-@media screen and (max-width: 586px){
+@media screen and (max-width: 568px){
     .place__website{
         max-width: 288px;
         padding: 0 16px;

@@ -1,29 +1,20 @@
 .place__paragraph{
-margin-top: 0;
-margin-bottom: 26px;
-max-width: 484px;
-min-height: 116px;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
 }
 .place__paragraph:last-of-type{
     margin-bottom: 0;
 }
-@media screen and (max-width: 1124px){
-    .place__paragraph{
-        max-width: 456px;
-    }
-}
 @media screen and (max-width: 984px){
     .place__paragraph{
         font-size: 16px;
-        max-width: 352px;
     }
 }
 @media screen and (max-width: 568px){
     .place__paragraph{
-        max-width: 288px;
         padding: 0 16px;
 }
 }

@@ -1,14 +1,12 @@
 .footer__link{
-width: 50px;
-height: 18px;
-margin-right: 18px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-color: #FFFFFF;
-text-decoration: none;
+    margin-right: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .footer__link:last-of-type{
     margin-right: 0;
@@ -16,9 +14,14 @@ text-decoration: none;
 .footer__link:hover{
     opacity: .8;
 }
-@media screen and (max-width: 568px){
+@media screen and (max-width: 680px){
     .footer__link{
         font-size: 24px;
-line-height: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        margin-right: 0;
+    }
+    .footer__link:last-of-type{
+        margin-bottom: 0;
     }
 }
