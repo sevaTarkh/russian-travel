@@ -1,0 +1,26 @@
+.intro__list{
+max-width: 690px;
+min-height: 90px;
+margin: 33px 0 0; 
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+}
+li{
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
+@media screen and (max-width: 984px){
+    .intro__list{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 568px){
+    .intro__list{
+        max-width: 288px;
+        min-height: 90px;
+        margin: 34px 0 0;
+    }
+}
