@@ -11,10 +11,11 @@
 .header__lang-link:last-of-type{
     margin-right: 0;
 }
-
+.header__lang-link:hover{
+    opacity: .8;
+}
 @media screen and (max-width: 568px){
     .header__lang-link{
-        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }

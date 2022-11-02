@@ -1,9 +1,11 @@
 .footer__nav{
     display: flex;
-    width: 100%;
+    margin: 0;
+    min-width: 465px;
 }
 @media screen and (max-width: 680px){
 .footer__nav{
     flex-direction: column;
+    min-width: 186px;
 }
 }
